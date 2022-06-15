@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum de Alejandro Ramirez</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <img src="imgs/mifoto.png" width="200" alt="Foto Alejandro Ramirez"><br>
+    <button>
+        <table border="2" widht="600">
+            <tr>
+                <th colspan="6">Listados de alumnos</th>
+                <th rowspan="5">ISP20</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Apellido</th>
+                <th rowspan="2">nombre</th>
+                <th rowspan="2">Nacimieto</th>
+                <th rowspan="2">Direccion</th>
+            </tr>
+            <tr>
+                <th rowspan="1">Dia</th>
+                <th rowspan="1">Mes</th>
+                <th rowspan="1">Año</th>
+            </tr>
+            <tr>
+                <th>Fernandez</th>
+                <th>Agustin Fernandez</th>
+                <th>Rio Grande,Tierra Del Fuego</th>
+                <th>Gobernador Crespo, Santa Fe</th>
+            </tr>
+            <tr>
+                <th>12</th>
+                <th>11</th>
+                <th>2000</th>
+            </tr>
+        </table>
+    </button>
+    <h1 onclick="PreguntarNombreYApellido();">Curriculum</h1>
+    <div id="datosPersonales">
+        <h2 class="textoGrande" id="datos" onclick="ponerEnMayusculas();">Datos Personales</h2>
+        <p>
+            Alumno:<strong class="textoGrande">Agustin Fernandez</strong><br>
+            Curso: <strong>1er año</strong><br>
+            Carrera: <strong>Téc. Sup. Desarrollo de Software</strong><br>
+
+        </p>
+   
+    </div>
+    <div id="educacion">
+        <h2>Educación</h2>
+        <p>
+            Primaria:<strong class="textoGrande">Escuela Normal</strong><br>
+            Secundaria: <strong>Escuela de Comercio</strong><br>
+            Terciario: <strong class="textoGrande">Inst. Sup. de Prof. Nº20</strong><br>
+
+        </p> 
+    </div> 
+<script type="text/javascript" src="/js/codigo.js">
+    //var nombre=prompt("Ingresa tu nombre:");
+    //alert("Hola "+nombre);
+</script>      
+</body>
+</html>
